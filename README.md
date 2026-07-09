@@ -78,6 +78,9 @@ Built and tested against Rocket.Chat 6.x REST API.
 
 - [n8n Community Nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [Rocket.Chat REST API documentation](https://developer.rocket.chat/apidocs#rocketchat-rest-api/)
+- [Local REST API reference](ROCKETCHAT_REST_API.md) — complete overview and endpoint index
+- [Local applied REST API reference](ROCKETCHAT_REST_API_APPLIED.md) — endpoint details for operations implemented in this node
+- [Local Realtime API reference](ROCKETCHAT_REALTIME_API.md) — WebSocket/DDP overview and method-call index
 - [Rocket.Chat personal access tokens](https://docs.rocket.chat/use-rocket.chat/user-guides/user-panel/account/personal-access-tokens)
 - [Rocket.Chat OAuth apps](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/oauth-apps)
 - [n8n workflow examples](https://docs.n8n.io/workflows/)
