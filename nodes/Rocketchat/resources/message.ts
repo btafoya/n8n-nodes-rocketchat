@@ -45,7 +45,7 @@ export const messageDescription: INodeProperties[] = [
 					send: {
 						type: 'body',
 						value:
-							'={{ { roomId: $parameter.roomId, msgId: $parameter.messageId, text: $parameter.text } } }}',
+							'={{ { roomId: $parameter.roomId, msgId: $parameter.messageId, text: $parameter.text } }}',
 					},
 				},
 			},

@@ -1,6 +1,6 @@
 {
   "name": "@btafoya/n8n-nodes-rocketchat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "n8n community node for Rocket.Chat",
   "license": "MIT",
   "homepage": "https://github.com/btafoya/n8n-nodes-rocketchat#readme",
@@ -42,10 +42,11 @@
     ]
   },
   "devDependencies": {
-    "@n8n/node-cli": "*",
+    "@n8n/node-cli": "0.39.1",
     "eslint": "9.39.4",
+    "n8n-workflow": "2.29.3",
     "prettier": "3.8.3",
-    "release-it": "20.2.0",
+    "release-it": "20.2.1",
     "tsx": "^4.23.0",
     "typescript": "5.9.3"
   },

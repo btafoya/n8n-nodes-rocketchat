@@ -2,8 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@btafoya/n8n-nodes-rocketchat.svg)](https://www.npmjs.com/package/@btafoya/n8n-nodes-rocketchat)
 [![npm downloads](https://img.shields.io/npm/dm/@btafoya/n8n-nodes-rocketchat.svg)](https://www.npmjs.com/package/@btafoya/n8n-nodes-rocketchat)
-[![License](https://img.shields.io/github/license/btafoya/@btafoya/n8n-nodes-rocketchat.svg)](https://github.com/btafoya/@btafoya/n8n-nodes-rocketchat/blob/main/LICENSE)
-[![Publish](https://github.com/btafoya/@btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml/badge.svg)](https://github.com/btafoya/@btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml)
+[![License](https://img.shields.io/github/license/btafoya/n8n-nodes-rocketchat.svg)](https://github.com/btafoya/n8n-nodes-rocketchat/blob/main/LICENSE)
+[![Publish](https://github.com/btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml/badge.svg)](https://github.com/btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml)
 [![n8n community node](https://img.shields.io/badge/n8n-community%20node-purple.svg)](https://docs.n8n.io/integrations/community-nodes/)
 
 An [n8n](https://n8n.io/) community node for [Rocket.Chat](https://www.rocket.chat/). Use it to send messages, manage channels and rooms, and interact with the Rocket.Chat REST API from your workflows.
