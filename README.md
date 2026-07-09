@@ -92,7 +92,10 @@ This package uses a two-stage release flow:
 1. **Create the release locally:**
 
    ```bash
-   npm run release
+   npm run release           # patch bump (default)
+   npm run release -- minor  # minor bump
+   npm run release -- major  # major bump
+   npm run release -- 0.1.3  # explicit version
    ```
 
    This lints, builds, bumps `package.json`, regenerates `CHANGELOG.md` with
