@@ -32,28 +32,54 @@ Then restart n8n.
 
 ## Setup
 
-Create a Rocket.Chat credential in n8n with:
+### Personal access token authentication
 
-- **Base URL** — the URL of your Rocket.Chat server, e.g. `https://chat.example.com`.
-- **User ID** — your Rocket.Chat user ID.
-- **Auth Token** — a personal access token for that user.
+1. In Rocket.Chat, open **My Account** → **Personal Access Tokens** and create a token.
+2. In n8n, create a new **Rocket.Chat API** credential.
+3. Enter:
+   - **Base URL** — the URL of your Rocket.Chat server, e.g. `https://chat.example.com`.
+   - **User ID** — your Rocket.Chat user ID.
+   - **Auth Token** — the personal access token.
 
-To generate a personal access token, open Rocket.Chat → **My Account** → **Personal Access Tokens**.
+### OAuth2 authentication
+
+1. In Rocket.Chat, create an OAuth application at **Administration** → **OAuth Apps**.
+2. In n8n, create a new **Rocket.Chat OAuth2 API** credential.
+3. Enter:
+   - **Base URL** — the URL of your Rocket.Chat server.
+   - **User ID** — your Rocket.Chat user ID (used for `X-User-Id` headers).
+   - **Client ID** and **Client Secret** from the Rocket.Chat OAuth app.
+4. Complete the OAuth2 authorization flow in n8n.
 
 ## Operations
 
 This node exposes common Rocket.Chat REST API operations, including:
 
 - Send, update, and delete chat messages.
-- Create, update, archive, and delete channels and groups.
+- Create, archive, and delete channels and groups.
 - Get room information and members.
 - Invite and kick users from rooms.
 - List and manage users.
+
+## Authentication
+
+The node supports two authentication methods:
+
+- **Personal access token** — simple and server-wide.
+- **OAuth2** — user-scoped, suitable for integrations that act on behalf of a user.
+
+Both methods inject the `X-Auth-Token` and `X-User-Id` headers required by the Rocket.Chat REST API.
+
+## Compatibility
+
+Built and tested against Rocket.Chat 6.x REST API.
 
 ## Resources
 
 - [n8n Community Nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [Rocket.Chat REST API documentation](https://developer.rocket.chat/apidocs#rocketchat-rest-api/)
+- [Rocket.Chat personal access tokens](https://docs.rocket.chat/use-rocket.chat/user-guides/user-panel/account/personal-access-tokens)
+- [Rocket.Chat OAuth apps](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/oauth-apps)
 - [n8n workflow examples](https://docs.n8n.io/workflows/)
 
 ## License
