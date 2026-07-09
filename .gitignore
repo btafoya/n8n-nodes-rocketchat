@@ -12,3 +12,5 @@ docs/
 compose.n8n.yml
 scripts/n8n.sh
 .env.example
+scripts/getuerid.sh
+user-pass-auth.sh
