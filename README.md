@@ -1,14 +1,14 @@
-# n8n-nodes-rocketchat
+# @btafoya/n8n-nodes-rocketchat
 
-[![npm version](https://img.shields.io/npm/v/n8n-nodes-rocketchat.svg)](https://www.npmjs.com/package/n8n-nodes-rocketchat)
-[![npm downloads](https://img.shields.io/npm/dm/n8n-nodes-rocketchat.svg)](https://www.npmjs.com/package/n8n-nodes-rocketchat)
-[![License](https://img.shields.io/github/license/btafoya/n8n-nodes-rocketchat.svg)](https://github.com/btafoya/n8n-nodes-rocketchat/blob/main/LICENSE)
-[![Publish](https://github.com/btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml/badge.svg)](https://github.com/btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml)
+[![npm version](https://img.shields.io/npm/v/@btafoya/n8n-nodes-rocketchat.svg)](https://www.npmjs.com/package/@btafoya/n8n-nodes-rocketchat)
+[![npm downloads](https://img.shields.io/npm/dm/@btafoya/n8n-nodes-rocketchat.svg)](https://www.npmjs.com/package/@btafoya/n8n-nodes-rocketchat)
+[![License](https://img.shields.io/github/license/btafoya/@btafoya/n8n-nodes-rocketchat.svg)](https://github.com/btafoya/@btafoya/n8n-nodes-rocketchat/blob/main/LICENSE)
+[![Publish](https://github.com/btafoya/@btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml/badge.svg)](https://github.com/btafoya/@btafoya/n8n-nodes-rocketchat/actions/workflows/publish.yml)
 [![n8n community node](https://img.shields.io/badge/n8n-community%20node-purple.svg)](https://docs.n8n.io/integrations/community-nodes/)
 
 An [n8n](https://n8n.io/) community node for [Rocket.Chat](https://www.rocket.chat/). Use it to send messages, manage channels and rooms, and interact with the Rocket.Chat REST API from your workflows.
 
-> **Published on npm:** Install the latest version from [npmjs.com](https://www.npmjs.com/package/n8n-nodes-rocketchat) or directly inside n8n.
+> **Published on npm:** Install the latest version from [npmjs.com](https://www.npmjs.com/package/@btafoya/n8n-nodes-rocketchat) or directly inside n8n.
 
 ## Installation
 
@@ -17,7 +17,7 @@ An [n8n](https://n8n.io/) community node for [Rocket.Chat](https://www.rocket.ch
 Community nodes can be installed directly from the n8n editor:
 
 1. Open **Settings** → **Community nodes**.
-2. Enter `n8n-nodes-rocketchat` and click **Install**.
+2. Enter `@btafoya/n8n-nodes-rocketchat` and click **Install**.
 3. Accept the security prompt.
 
 ### Self-hosted n8n
@@ -25,7 +25,7 @@ Community nodes can be installed directly from the n8n editor:
 From your n8n installation directory, run:
 
 ```bash
-npm install n8n-nodes-rocketchat
+npm install @btafoya/n8n-nodes-rocketchat
 ```
 
 Then restart n8n.

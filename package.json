@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-rocketchat",
+  "name": "@btafoya/n8n-nodes-rocketchat",
   "version": "0.1.0",
   "description": "n8n community node for Rocket.Chat",
   "license": "MIT",
