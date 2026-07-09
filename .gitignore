@@ -9,3 +9,6 @@ docs/
 .codegraph/
 .mcp.json
 .serena/
+compose.n8n.yml
+scripts/n8n.sh
+.env.example
