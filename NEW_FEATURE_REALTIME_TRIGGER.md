@@ -22,10 +22,10 @@ The current v1 node exposes only REST API operations. Users who want to react to
 - Subscriptions to public channel and private group message streams.
 - Output of received messages in n8n's standard item format.
 - Manual stop / connection cleanup when the workflow is deactivated.
+- OAuth2 authentication for the trigger.
 
 ### Out of scope
 
-- OAuth2 authentication for the trigger (can be added later).
 - Subscriptions to direct messages, livechat, or custom streams.
 - Sending messages through the realtime connection (use the existing REST node).
 - Reconnection / backoff logic beyond a single automatic retry.
@@ -34,6 +34,7 @@ The current v1 node exposes only REST API operations. Users who want to react to
 ## Reference
 
 - [Rocket.Chat Realtime API documentation](https://developer.rocket.chat/apidocs/realtimeapi)
+- Local reference `ROCKETCHAT_REALTIME_API.md`
 - [Rocket.Chat DDP message format](https://developer.rocket.chat/apidocs/methods)
 - Existing package docs:
   - `PROJECT_REFERENCE.md`
