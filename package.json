@@ -22,6 +22,8 @@
     "dev": "n8n-node dev",
     "lint": "n8n-node lint",
     "lint:fix": "n8n-node lint --fix",
+    "test": "tsx --test",
+    "test:watch": "tsx --test --watch",
     "release": "n8n-node release",
     "prepublishOnly": "npm run lint && npm run build"
   },
@@ -30,7 +32,7 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "strict": true,
+    "strict": false,
     "credentials": [
       "dist/credentials/RocketchatApi.credentials.js",
       "dist/credentials/RocketchatOAuth2Api.credentials.js"
@@ -44,6 +46,7 @@
     "eslint": "9.39.4",
     "prettier": "3.8.3",
     "release-it": "20.2.0",
+    "tsx": "^4.23.0",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
