@@ -8,7 +8,7 @@
 
 An [n8n](https://n8n.io/) community node for [Rocket.Chat](https://www.rocket.chat/). Use it to send messages, manage channels and rooms, and interact with the Rocket.Chat REST API from your workflows.
 
-> **Beta notice:** This node is in beta. It will be published to npm once beta testing is complete.
+> **Published on npm:** Install the latest version from [npmjs.com](https://www.npmjs.com/package/@btafoya/n8n-nodes-rocketchat) or directly inside n8n.
 
 ## Installation
 
