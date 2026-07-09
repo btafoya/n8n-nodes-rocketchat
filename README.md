@@ -85,6 +85,28 @@ Built and tested against Rocket.Chat 6.x REST API.
 - [Rocket.Chat OAuth apps](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/oauth-apps)
 - [n8n workflow examples](https://docs.n8n.io/workflows/)
 
+## Releasing
+
+This package uses a two-stage release flow:
+
+1. **Create the release locally:**
+
+   ```bash
+   npm run release
+   ```
+
+   This lints, builds, bumps `package.json`, regenerates `CHANGELOG.md` with
+   `auto-changelog`, commits, creates and pushes a `v*.*.*` tag, and creates a
+   GitHub release. It does **not** publish to npm.
+
+2. **Publish via GitHub Actions:**
+
+   Pushing the `v*.*.*` tag triggers `.github/workflows/publish.yml`, which
+   publishes the package to npm with provenance.
+
+   Do not use `npm publish` locally or `npm run release:publish` unless you
+   intentionally want to bypass npm provenance.
+
 ## License
 
 [MIT](LICENSE)

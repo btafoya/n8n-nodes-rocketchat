@@ -24,7 +24,8 @@
     "lint:fix": "n8n-node lint --fix",
     "test": "tsx --test",
     "test:watch": "tsx --test --watch",
-    "release": "n8n-node release",
+    "release": "./scripts/release.sh",
+    "release:publish": "./scripts/release.sh --publish",
     "prepublishOnly": "npm run lint && npm run build"
   },
   "files": [
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@n8n/node-cli": "0.39.1",
+    "auto-changelog": "^2.6.0",
     "eslint": "9.39.4",
     "n8n-workflow": "2.29.3",
     "prettier": "3.8.3",
